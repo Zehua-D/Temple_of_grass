@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        “Survival is the second productive force”
+
+        <img src="" alt="显示失败">
+        <!-- loop循环 preload预加载 track kind="subtitles"字幕文件-->
+        <video src control autoplay muted loop preload>
+          <source src="" type="video/mp4">
+          <source src="" type="video/ogg">
+          <source src="" type="video/webm">
+          <p>您的浏览器不支持视频格式</p>
+        
+          <track kind="subtitles" src="" lang="zh" src=".vtt">
+          </video>
+        
+          <audio src="" control></audio>
+        
+        <h2>有序列表</h2>
+          <ol start="4" type="A">
+            <li>ali</li>
+            <li>阿凡达</li>
+              <li>阿凡达</li>
+          </ol>
+        <!-- dl叫做定义列表 是由键值对组成的列表 -->
+          <h2>有序列表</h2>
+          <dl>
+           <dt>导演：</dt>
+           <dd>陈凯歌</dd>
+           
+           <dt>主演</dt>
+           <dd>张国荣</dd>
+           <dd>张丰毅</dd>
+           <dd>巩俐</dd>
+           
+           <dt>上映日期：</dt>
+           <dd>1993-01-01</dd>
+          </dl>
+        <!-- tr:table-row表行 th:table-head  rowspan/colspan-->
+        <table id="t">
+          <caption>标题</caption>
+          <thead>
+            <tr>
+              <th>表头1</th>
+              <th>表头2</th>
+              <th>表头3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3">内容1.a</td>
+              <td>内容2.a1</td>
+              <td>内容3.a1</td>
+            </tr>
+            <tr>
+              <td>内容2.a2</td>
+              <td>内容3.a2</td>
+            </tr>
+            <tr>
+              <td>内容2.a3</td>
+              <td>内容3.a3</td>
+            </tr>
+            <tr>
+              <td>1.b</td>
+              <td rowspan="2">2.b</td>
+              <td>3.b</td>
+            </tr>
+            <tr>
+              <td>1.c</td>
+              <td>3.c</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">结论</td>
+              <td>无</td>
+            </tr>
+          </tfoot>
+        </table>
+    </body>
+</html>

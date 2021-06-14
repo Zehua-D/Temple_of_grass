@@ -1,0 +1,21 @@
+/* preloader的样式设置 */
+/* preloader相对于屏幕是固定的 */
+/* #preloader{
+    width: 100vw;
+    height: 100vh;
+    background-color:#000;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+#gif{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: auto;
+    margin-top:40vh;
+}
+
+.nav-item{
+    display: flex;
+} */
