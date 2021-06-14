@@ -1,10 +1,3 @@
-//网页前的开场动画
-// window.onload = function(){
-//     $('#gif').fadeOut();
-//     $('#preloader').delay(450).fadeOut('slow');
-// }
-alert("no");
-
 var animation = bodymovin.loadAnimation({
     container:document.getElementById('bm'),
     renderer:'svg',
@@ -12,3 +5,10 @@ var animation = bodymovin.loadAnimation({
     autoplay:true,
     path:'data.json'
 });
+
+//点击某个超链接，就在placeholder处显示该超链接的图片,whichpic是一个元素节点
+function showPic(whichpic){
+    var source = whichpic.getAttribute('href');
+    var placeholder = document.getElementById('placeholder');
+    placeholder.setAttribute('src',source);
+}
